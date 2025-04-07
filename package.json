@@ -2,14 +2,17 @@
   "name": "kb",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch kb19.json --port 5000"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  },
+  "devDependencies": {
     "json-server": "^1.0.0-beta.3"
   }
 }
