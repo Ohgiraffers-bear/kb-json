@@ -1,7 +1,7 @@
 // server.js
 const jsonServer = require("json-server");
 const server = jsonServer.create();
-const router = jsonServer.router("kb19.json");
+const router = jsonServer.router(".data/kb19.json");
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
